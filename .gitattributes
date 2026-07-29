@@ -1,0 +1,25 @@
+# Store text consistently; Git materializes LF in working trees on every platform.
+* text=auto eol=lf
+
+# Documents, media, fonts, archives, and databases are binary.
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.ppt binary
+*.pptx binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.zip binary
+*.7z binary
+*.sqlite binary
+*.db binary

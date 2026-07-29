@@ -1,0 +1,142 @@
+{
+  "generated_by": "孙铭炜",
+  "knowledge_sources": [
+    {
+      "name": "1型糖尿病生活注意事项全攻略.docx",
+      "sha256": "9B2307DD533EF1211EFC76F7C06AD945E203D526B5AAD045F4BC28A2B7440C8B",
+      "chunks": 3
+    },
+    {
+      "name": "2型糖尿病生活注意事项全攻略.docx",
+      "sha256": "AC871439ACFD5B86E0388D1BAC2F5C96723B09F42F2BFD26F4986F86CA943263",
+      "chunks": 6
+    },
+    {
+      "name": "妊娠型糖尿病生活注意事项全攻略.docx",
+      "sha256": "6FA8BEBC2115DBF42DF5EE1D03C8DF2C93952F0DF53159552C89BCC2F6B648E2",
+      "chunks": 6
+    },
+    {
+      "name": "特殊型糖尿病生活注意事项全攻略.docx",
+      "sha256": "9D25C74A27F4BD4584146EDA0FA433222540CB528E2648F26596A36EC5023413",
+      "chunks": 9
+    },
+    {
+      "name": "糖尿病患者全攻略：打造专属健康生活.docx",
+      "sha256": "B49B4CDA4724F58B97643B8FEA1DF2FE02023EC6665A10828DEB1CCFF86C8D4E",
+      "chunks": 10
+    },
+    {
+      "name": "糖尿病生活习惯全方位参考指南.docx",
+      "sha256": "FC72EF7ADF13187B5A039786A2C1E0F8CA5F7AD6F72AB2F95286BAFDBD28E72E",
+      "chunks": 3
+    }
+  ],
+  "database_schema": {
+    "name": "db.txt",
+    "sha256": "810091E1982C8EEF0C1194DFF89F07F2263B1B6DBF61087C658167F1365F0B52"
+  },
+  "database_tables": [
+    {
+      "name": "users",
+      "columns": [
+        "user_id",
+        "username",
+        "password",
+        "avatar_url"
+      ]
+    },
+    {
+      "name": "doctor_information",
+      "columns": [
+        "info_id",
+        "doctor_name",
+        "department",
+        "title",
+        "introduction",
+        "image_url",
+        "chat_token"
+      ]
+    },
+    {
+      "name": "articles",
+      "columns": [
+        "article_id",
+        "title",
+        "cover_url",
+        "author",
+        "publish_time",
+        "content",
+        "category",
+        "views"
+      ]
+    },
+    {
+      "name": "diabetes_types",
+      "columns": [
+        "type_id",
+        "type_name",
+        "img",
+        "pathogenesis",
+        "manifestation",
+        "treatment"
+      ]
+    },
+    {
+      "name": "article_collections",
+      "columns": [
+        "collection_id",
+        "user_id",
+        "article_id"
+      ]
+    },
+    {
+      "name": "user_risk_info",
+      "columns": [
+        "userId",
+        "age",
+        "sex",
+        "height",
+        "weight",
+        "familyHistory",
+        "waistline",
+        "systolicPressure",
+        "isPregnancy",
+        "message",
+        "disease"
+      ]
+    },
+    {
+      "name": "life_plans",
+      "columns": [
+        "id",
+        "user_id",
+        "type",
+        "order",
+        "time",
+        "title",
+        "content"
+      ]
+    },
+    {
+      "name": "life_advice",
+      "columns": [
+        "id",
+        "user_id",
+        "title",
+        "tags",
+        "content"
+      ]
+    },
+    {
+      "name": "punch_in",
+      "columns": [
+        "user_id",
+        "punch_time",
+        "punch_type",
+        "completion_status",
+        "message"
+      ]
+    }
+  ]
+}
