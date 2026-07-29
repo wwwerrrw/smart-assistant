@@ -5,7 +5,8 @@
 - 仓库根目录：`E:\Zmkk\New project`
 - 本机 Git：`C:\Program Files\Git\cmd\git.exe`
 - 主分支：`main`
-- 远程：当前未配置。确认 GitHub/Gitee/GitLab 平台和现有/新建私有仓库后，再配置 `origin`。
+- 远程：`origin` = `https://github.com/wwwerrrw/smart-assistant.git`（GitHub 私有仓库）。
+- 上游：首次 push 获得单独授权后，再建立 `main` 对 `origin/main` 的跟踪关系。
 - 凭据：使用 Git Credential Manager 或平台 CLI 的安全凭据存储，不将令牌写入仓库、命令、日志或文档。
 
 ## 日常修改
